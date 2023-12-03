@@ -17,8 +17,17 @@ const HorizontalScrollCarousel = () => {
     const gap = 25; // gap between cards
     const totalWidth = cards.length * cardWidth + (cards.length - 1) * gap; // total width of all cards including gaps
 
-    const viewportWidth = window.innerWidth;
-    const carouselContainerWidth = viewportWidth - 20; // Reduced width, 100px less than the viewport
+    // State to store the viewport width
+    const [viewportWidth, setViewportWidth] = useState(0);
+
+    useEffect(() => {
+        // Update the viewport width when the component mounts
+        if (typeof window !== 'undefined') {
+            setViewportWidth(window.innerWidth);
+        }
+    }, []);
+
+    const carouselContainerWidth = viewportWidth - 20; // Reduced width, 20px less than the viewport
     const endRange = `-${totalWidth - carouselContainerWidth - 100}px`;
 
     const { scrollYProgress } = useViewportScroll();
@@ -42,6 +51,7 @@ const HorizontalScrollCarousel = () => {
         </section>
     );
 };
+
 
 
 const Card = ({ card }: { card: CardType }) => {
