@@ -18,10 +18,46 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.shadow-glow {
+  box-shadow: 0 0 8px 2px #ff69b4;
+  /* Adjust color and size as needed */
+}
+
+.glowy-border {
+  box-shadow: 0 0 2px #ff01f2;
+}
+
+.carousel-container {
+  display: flex;
+  width: auto;
+  margin-top: 100vh;
+  /* Start the carousel after the user scrolls down */
+}
+
+.card {
+  width: 300px;
+  /* Width of each card */
+  height: 200px;
+  /* Height of each card */
+  margin-right: 20px;
+  /* Space between cards */
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  /* Prevent cards from shrinking */
+}
+
+.carousel-container {
+  box-sizing: border-box;
+  /* Include padding and border in the element's total width */
+  max-width: 100vw;
+  /* Limit the width to the viewport width */
+  overflow: hidden;
+  /* Hide any overflow */
+  /* Add any additional styling here */
 }
