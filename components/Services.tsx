@@ -4,29 +4,29 @@ import { FeatureCard, Service1, Service2, Service3, Service4, Service5 } from '.
 
 const features = [
     {
-        title: "Lorem Ipsum 1",
-        desc: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
+        title: " Chatbots",
+        desc: "Enhance your Digital Presence with our tailor-made AI chatbots, designed for seamless integration across Telegram, WhatsApp, Discord, and more",
         id: "1",
         card: Service1
     },
     {
-        title: "Lorem Ipsum 2",
-        desc: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
+        title: "AI Pro",
+        desc: "Transforming your vision into reality with bespoke AI solutions, uniquely crafted to meet your specific business needs.",
         id: "2",
         card: Service2
     },
     {
-        title: "Lorem Ipsum 3",
-        desc: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
+        title: "Websites",
+        desc: "Expertly crafted full-stack websites, designed to boost your digital footprint and enhance user engagement, optimized for superior SEO performance.",
         id: "3",
         card: Service3
     },
-    // {
-    //     title: "Lorem Ipsum 4",
-    //     desc: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
-    //     id: "4",
-    //     card: Service4
-    // },
+     {
+         title: "AR Solutions",
+         desc: "Transform your brand's engagement with innovative AR experiences, crafted by our certified Snapchat Lens Developers",
+         id: "4",
+         card: Service4
+     },
     // {
     //     title: "Lorem Ipsum 5",
     //     desc: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",

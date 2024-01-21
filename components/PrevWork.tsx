@@ -89,22 +89,32 @@ type CardType = {
 const cards: CardType[] = [
     {
         url: "car.png",
-        title: "Title 1",
+        title: "Airebot",
         id: 1,
     },
     {
         url: "app.png",
-        title: "Title 2",
+        title: "WatchTower",
         id: 2,
     },
     {
         url: "car.png",
-        title: "Title 3",
+        title: "Isc Bot",
         id: 3,
     },
     {
         url: "3.jpg",
-        title: "Title 4",
+        title: "SolanaStables",
+        id: 4,
+    },
+    {
+        url: "3.jpg",
+        title: "SolanaStable",
+        id: 4,
+    },
+    {
+        url: "3.jpg",
+        title: "SolanaStables",
         id: 4,
     },
 
