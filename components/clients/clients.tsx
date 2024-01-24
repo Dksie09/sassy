@@ -8,7 +8,7 @@ import shopify from '../../public/prop1.png';
 const Clients: React.FC = () => (
   <div className="flex flex-wrap justify-center items-center p-4">
     {/* Text Element at the top */}
-    <div className="w-full text-center text-xl font-extrabold mb-5">
+    <div className="w-full text-center text-5xl font-extrabold mb-5">
       Our Clients
     </div>
 
