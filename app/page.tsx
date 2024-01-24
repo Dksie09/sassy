@@ -6,6 +6,7 @@ import Prev from '@/components/PrevWork'
 import Services from '@/components/Services'
 import Image from 'next/image'
 import Clients from '@/components/clients/clients'
+import Testimonials from '@/components/Testimonials'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Clients/>
       <Banner />
+      <Testimonials />
       <Prev />
       <Plans />
       <Footer />
