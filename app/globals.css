@@ -61,3 +61,23 @@ body {
   /* Hide any overflow */
   /* Add any additional styling here */
 }
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-paused:hover {
+  animation-play-state: paused;
+}

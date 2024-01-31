@@ -18,7 +18,7 @@ export const FeatureCard = ({ gradient, id, children }: CustomCardProps) => {
 export const Service1 = ({ id }: CardProps) => {
     return (
         <FeatureCard id={id} gradient="from-[#f7f0ff] to-[#a78afe]" >
-            <img src="robo.png" className="" />
+            <img src="chat.png" className=" animate-float" />
         </FeatureCard>
     );
 };
@@ -26,20 +26,24 @@ export const Service1 = ({ id }: CardProps) => {
 export const Service2 = ({ id }: CardProps) => {
     return (
         <FeatureCard id={id} gradient="from-[#f5fff7] to-[#adf8ff]">
-
+            <img src="robo.png" className=" animate-float" />
         </FeatureCard>
     );
 };
 
 export const Service3 = ({ id }: CardProps) => {
     return (
-        <FeatureCard id={id} gradient="from-[#fff7f5] to-[#ffd8ad]" />
+        <FeatureCard id={id} gradient="from-[#fff7f5] to-[#ffd8ad]" >
+            <img src="website2.png" className=" animate-float" />
+        </FeatureCard>
     );
 };
 
 export const Service4 = ({ id }: CardProps) => {
     return (
-        <FeatureCard id={id} gradient="from-[#f5fff7] to-[#adf8ff]" />
+        <FeatureCard id={id} gradient="from-[#f5fff7] to-[#DD6D95]">
+            <img src="ar.png" className=" animate-float" />
+        </FeatureCard>
     );
 };
 

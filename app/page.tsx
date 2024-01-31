@@ -7,17 +7,22 @@ import Services from '@/components/Services'
 import Image from 'next/image'
 import Clients from '@/components/clients/clients'
 import Testimonials from '@/components/Testimonials'
+import LogoCarousel from '@/components/LogoCarousel'
+import Work from '@/components/services/Work'
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <Hero />
-      <Services />
-      <Clients/>
-      <Banner />
-      <Testimonials />
+
       <Prev />
+      <LogoCarousel />
+      <Services />
+      {/* <Clients /> */}
+      <Banner />
+      <Work />
       <Plans />
+      <Testimonials />
       <Footer />
     </main>
   )
