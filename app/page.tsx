@@ -8,7 +8,7 @@ import Image from 'next/image'
 import Clients from '@/components/clients/clients'
 import Testimonials from '@/components/Testimonials'
 import LogoCarousel from '@/components/LogoCarousel'
-import Work from '@/components/services/Work'
+import Work from '@/components/Work'
 
 export default function Home() {
   return (

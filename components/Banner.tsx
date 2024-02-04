@@ -15,13 +15,12 @@ const Banner = () => {
     const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.9, 1]);
     const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
     return (
-        <motion.div ref={ref} className='flex flex-col justify-center items-center min-h-screen' style={{
+        <motion.div ref={ref} className='flex flex-col justify-center items-center mb-52 min-h-screen' style={{
             scale: scaleProgress,
             opacity: opacityProgress
         }}>
             <h1 className='text-5xl font-extrabold mb-8'>Not your average AI company</h1>
             <span className=' text-2xl font-extralight '>This is how we work! </span>
-            {/* <span className=' text-2xl font-extralight '>To make sure your models perfectly fit your business needs!</span> */}
             <Timeline />
         </motion.div>
     )

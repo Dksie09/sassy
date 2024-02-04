@@ -4,9 +4,9 @@ import Prev from './PrevWork';
 const Hero = () => {
     return (
         <div className="flex flex-col mh-[90vh]">
-            <img src='prop2.png' className='absolute left-10 bottom-32 hidden md:inline'></img>
+            <img src='prop2.png' className='absolute left-10 bottom-32 hidden md:inline animate-float'></img>
 
-            <img src='prop3.png' className='absolute right-10 top-10 hidden md:inline'></img>
+            <img src='prop3.png' className='absolute right-10 top-10 hidden md:inline animate-float'></img>
 
             {/* Adjusted the min-h-screen to h-[90vh] to make it slightly smaller than the full screen */}
             <div className="relative flex flex-col items-center p-24 h-[90vh]">
